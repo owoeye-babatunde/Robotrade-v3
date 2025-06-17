@@ -10,12 +10,6 @@ Robotrade is an AI-enhanced, modular trading system designed for automated tradi
 - Prediction APIs and model training pipelines
 - Kubernetes-native deployment and Docker support
 
-## Getting Started
-
-1. Clone the repository
-2. Review the `self-note/` folder for setup guides
-3. Use the provided Dockerfiles and Kubernetes manifests for deployment
-
 ## Folder Structure
 
 - `services/` - Microservices for data, prediction, trading, etc.
