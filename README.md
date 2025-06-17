@@ -1,47 +1,34 @@
-# real-time-ml-system-cohort-4
+# Robotrade Trading System
 
-#### Table of contents
+Robotrade is an AI-enhanced, modular trading system designed for automated trading, analysis, and prediction in financial markets. It leverages advanced data pipelines, machine learning, and real-time data processing to support research, backtesting, and live trading.
 
-- [Some general information](#some-general-information)
-- [Before the course starts](#before-the-course-starts)
-- [Sessions](#sessions)
+## Features
 
-## Some general information
+- Modular microservices architecture (Rust & Python)
+- Real-time and historical data ingestion
+- Technical indicators and news sentiment analysis
+- Prediction APIs and model training pipelines
+- Kubernetes-native deployment and Docker support
 
-- [What's new in this cohort?](https://www.realworldml.net/products/building-a-real-time-ml-system-together-cohort-4/categories/2157289689/posts/2186077943)
-- [Calendar](https://www.realworldml.net/products/communities/buildingrealtimemlsystemsforproduction/meetups)
-- [How to share problems and issues you face during the course?](https://www.realworldml.net/products/building-a-real-time-ml-system-together-cohort-4/categories/2157289689/posts/2186535362)
+## Getting Started
 
-## Before the course starts
+1. Clone the repository
+2. Review the `self-note/` folder for setup guides
+3. Use the provided Dockerfiles and Kubernetes manifests for deployment
 
-- [How to setup your development environment](lessons/00_how_to_setup_your_development_environment.md)
-- [How to create a local Kubernetes cluster](lessons/01_create_local_kubernetes_cluster.md)
+## Folder Structure
 
-## Sessions
+- `services/` - Microservices for data, prediction, trading, etc.
+- `deployments/` - Kubernetes manifests for dev/prod
+- `docker/` - Dockerfiles for each service
+- `scripts/` - Utility scripts for build and deployment
+- `self-note/` - Developer notes and setup instructions
 
-At the end of each session, I create a document with 4 things:
+## Requirements
 
-* The goals of the session
-* Your questions
-* Insights we gained during the session (aka nuggets of wisdom)
-* Video recordings and slides
+- Docker & Kubernetes
+- Python 3.10+ and/or Rust (for relevant services)
 
-You can find the documents in the [lessons](lessons) folder.
+## License
 
-- [x] [Session 1](lessons/session_1.md)
-- [x] [Session 2](lessons/session_2.md)
-- [x] [Session 3](lessons/session_3.md)
-- [x] [Session 4](lessons/session_4.md)
-- [x] [Session 5](lessons/session_5.md)
-- [x] [Session 6](lessons/session_6.md)
-- [x] [Session 7](lessons/session_7.md)
-- [x] [Session 8](lessons/session_8.md)
-- [x] [Session 9](lessons/session_9.md)
-- [x] [Session 10](lessons/session_10.md)
-- [x] [Session 11](lessons/session_11.md)
-- [x] [Session 12](lessons/session_12.md)
-- [x] [Session 13](lessons/session_13.md)
-- [x] [Session 14](lessons/session_14.md)
-- [x] [Session 15](lessons/session_15.md)
-- [x] [Session 16](lessons/session_16.md)
-- [] [Session 17](lessons/session_17.md)
+MIT License
